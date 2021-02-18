@@ -1,0 +1,69 @@
+.nav-link{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.right-side{
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#basic-navbar-nav a{
+  padding: 0 3rem;
+  display: flex;
+  align-items: center
+}
+
+#basic-navbar-nav a:not(.profile){
+  margin-bottom: 7px;
+}
+
+#basic-navbar-nav .profile a span{
+  display: flex;
+  align-items: center;
+}
+
+#basic-navbar-nav a:not(:last-child){
+  border-right: solid 1px #d7d7d7;
+}
+
+#basic-navbar-nav i{
+  font-size: 40px;
+  margin-right: 5px;
+}
+
+#basic-navbar-nav .profile a{
+  margin-bottom: 0;
+  border: none;
+}
+
+nav.navbar {
+  background-color: #1f2833;
+}
+
+nav.navbar a{
+  color: #f0f0f0 !important;
+}
+
+nav.navbar a span div{
+  transition: all 0.5s;
+  width: 0;
+  height: 1px;
+  background-color: #f0f0f0;
+}
+
+nav.navbar a.active span div{
+  transition: all 0.5s;
+  width: 100%;
+  height: 1px;
+  background-color: #f0f0f0;
+}
+
+nav.navbar a:hover span div, nav.navbar a:active span div{
+  width: 100%;
+}
+
+nav.navbar a.dropdown-item{
+  color: #222222 !important;
+}

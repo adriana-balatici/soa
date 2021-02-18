@@ -1,0 +1,19 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+  background-color: #f0f0f0;
+}
+
+.btn, .btn:focus{
+  background-color: #45A29E;
+  border-color: #45A29E;
+}
+
+.btn:hover, .btn:active, .btn:visited{
+  background-color: rgb(58, 138, 134) !important;
+  border-color: rgb(58, 138, 134) !important;
+}
+
+.btn.disabled, .btn:disabled{
+  background-color: rgb(101, 182, 178);
+}
