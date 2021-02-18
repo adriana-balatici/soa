@@ -1,0 +1,13 @@
+version: "3"
+services:
+  nodejs-app:
+    build: ./nodejs-app
+    ports: 
+      - 5100:5100
+      
+  react-app:
+    build: ./react-app
+    ports: 
+      - 4200:4200
+    stdin_open: true
+    
